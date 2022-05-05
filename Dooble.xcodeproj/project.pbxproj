@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72A092091BAD92A50023497F /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A092081BAD92A50023497F /* GoogleMobileAds.framework */; };
+		72BB5C161B468657000ABCD4 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C151B468657000ABCD4 /* GameKit.framework */; };
+		72BB5C1A1B4687CD000ABCD4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C191B4687CD000ABCD4 /* AdSupport.framework */; };
+		72BB5C1C1B4687D2000ABCD4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C1B1B4687D2000ABCD4 /* AVFoundation.framework */; };
+		72BB5C1E1B4687D6000ABCD4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C1D1B4687D6000ABCD4 /* AudioToolbox.framework */; };
+		72BB5C201B4687DA000ABCD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C1F1B4687DA000ABCD4 /* CoreGraphics.framework */; };
+		72BB5C221B4687E3000ABCD4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C211B4687E3000ABCD4 /* CoreMedia.framework */; };
+		72BB5C241B4687E8000ABCD4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C231B4687E8000ABCD4 /* CoreTelephony.framework */; };
+		72BB5C261B4687EC000ABCD4 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C251B4687EC000ABCD4 /* EventKit.framework */; };
+		72BB5C281B4687F0000ABCD4 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C271B4687F0000ABCD4 /* EventKitUI.framework */; };
+		72BB5C2A1B4687F3000ABCD4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C291B4687F3000ABCD4 /* MessageUI.framework */; };
+		72BB5C2C1B4687F7000ABCD4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C2B1B4687F7000ABCD4 /* StoreKit.framework */; };
+		72BB5C2E1B4687FB000ABCD4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BB5C2D1B4687FB000ABCD4 /* SystemConfiguration.framework */; };
+		72CFE38D1B458BA9002AE471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CFE38C1B458BA9002AE471 /* AppDelegate.swift */; };
+		72CFE38F1B458BA9002AE471 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CFE38E1B458BA9002AE471 /* GameBoard.swift */; };
+		72CFE3921B458BA9002AE471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CFE3901B458BA9002AE471 /* Main.storyboard */; };
+		72CFE3941B458BA9002AE471 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CFE3931B458BA9002AE471 /* Images.xcassets */; };
+		72CFE3AD1B458C03002AE471 /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CFE3AC1B458C03002AE471 /* Configs.swift */; };
+		72CFE3AF1B458D00002AE471 /* junegull.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72CFE3AE1B458D00002AE471 /* junegull.ttf */; };
+		72CFE3B11B458FBD002AE471 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CFE3B01B458FBD002AE471 /* Home.swift */; };
+		72E3958B1B465E3E008062BE /* tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 72E3958A1B465E3E008062BE /* tap.mp3 */; };
+		72E3958D1B466061008062BE /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 72E3958C1B466061008062BE /* gameOver.wav */; };
+		72E395911B466248008062BE /* dot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 72E395901B466248008062BE /* dot.wav */; };
+		72E395931B467107008062BE /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E395921B467107008062BE /* GameOver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72A092081BAD92A50023497F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Dooble/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		72BB5C151B468657000ABCD4 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		72BB5C191B4687CD000ABCD4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		72BB5C1B1B4687D2000ABCD4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		72BB5C1D1B4687D6000ABCD4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		72BB5C1F1B4687DA000ABCD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72BB5C211B4687E3000ABCD4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		72BB5C231B4687E8000ABCD4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		72BB5C251B4687EC000ABCD4 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		72BB5C271B4687F0000ABCD4 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		72BB5C291B4687F3000ABCD4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		72BB5C2B1B4687F7000ABCD4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		72BB5C2D1B4687FB000ABCD4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		72CFE3871B458BA9002AE471 /* Dooble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dooble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CFE38B1B458BA9002AE471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CFE38C1B458BA9002AE471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72CFE38E1B458BA9002AE471 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		72CFE3911B458BA9002AE471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72CFE3931B458BA9002AE471 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72CFE3AC1B458C03002AE471 /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		72CFE3AE1B458D00002AE471 /* junegull.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = junegull.ttf; path = ../junegull.ttf; sourceTree = "<group>"; };
+		72CFE3B01B458FBD002AE471 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		72E3958A1B465E3E008062BE /* tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tap.mp3; sourceTree = "<group>"; };
+		72E3958C1B466061008062BE /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
+		72E395901B466248008062BE /* dot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dot.wav; sourceTree = "<group>"; };
+		72E395921B467107008062BE /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72CFE3841B458BA9002AE471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BB5C2E1B4687FB000ABCD4 /* SystemConfiguration.framework in Frameworks */,
+				72BB5C2C1B4687F7000ABCD4 /* StoreKit.framework in Frameworks */,
+				72A092091BAD92A50023497F /* GoogleMobileAds.framework in Frameworks */,
+				72BB5C2A1B4687F3000ABCD4 /* MessageUI.framework in Frameworks */,
+				72BB5C281B4687F0000ABCD4 /* EventKitUI.framework in Frameworks */,
+				72BB5C261B4687EC000ABCD4 /* EventKit.framework in Frameworks */,
+				72BB5C241B4687E8000ABCD4 /* CoreTelephony.framework in Frameworks */,
+				72BB5C221B4687E3000ABCD4 /* CoreMedia.framework in Frameworks */,
+				72BB5C201B4687DA000ABCD4 /* CoreGraphics.framework in Frameworks */,
+				72BB5C1E1B4687D6000ABCD4 /* AudioToolbox.framework in Frameworks */,
+				72BB5C1C1B4687D2000ABCD4 /* AVFoundation.framework in Frameworks */,
+				72BB5C1A1B4687CD000ABCD4 /* AdSupport.framework in Frameworks */,
+				72BB5C161B468657000ABCD4 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72BB5C2F1B468805000ABCD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72A092081BAD92A50023497F /* GoogleMobileAds.framework */,
+				72BB5C2D1B4687FB000ABCD4 /* SystemConfiguration.framework */,
+				72BB5C2B1B4687F7000ABCD4 /* StoreKit.framework */,
+				72BB5C291B4687F3000ABCD4 /* MessageUI.framework */,
+				72BB5C271B4687F0000ABCD4 /* EventKitUI.framework */,
+				72BB5C251B4687EC000ABCD4 /* EventKit.framework */,
+				72BB5C231B4687E8000ABCD4 /* CoreTelephony.framework */,
+				72BB5C211B4687E3000ABCD4 /* CoreMedia.framework */,
+				72BB5C1F1B4687DA000ABCD4 /* CoreGraphics.framework */,
+				72BB5C1D1B4687D6000ABCD4 /* AudioToolbox.framework */,
+				72BB5C1B1B4687D2000ABCD4 /* AVFoundation.framework */,
+				72BB5C191B4687CD000ABCD4 /* AdSupport.framework */,
+				72BB5C151B468657000ABCD4 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		72CFE37E1B458BA9002AE471 = {
+			isa = PBXGroup;
+			children = (
+				72CFE3891B458BA9002AE471 /* Dooble */,
+				72CFE3881B458BA9002AE471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72CFE3881B458BA9002AE471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72CFE3871B458BA9002AE471 /* Dooble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72CFE3891B458BA9002AE471 /* Dooble */ = {
+			isa = PBXGroup;
+			children = (
+				72CFE38C1B458BA9002AE471 /* AppDelegate.swift */,
+				72CFE3AC1B458C03002AE471 /* Configs.swift */,
+				72CFE3901B458BA9002AE471 /* Main.storyboard */,
+				72CFE3B01B458FBD002AE471 /* Home.swift */,
+				72CFE38E1B458BA9002AE471 /* GameBoard.swift */,
+				72E395921B467107008062BE /* GameOver.swift */,
+				72CFE3931B458BA9002AE471 /* Images.xcassets */,
+				72BB5C2F1B468805000ABCD4 /* Frameworks */,
+				72CFE38A1B458BA9002AE471 /* Supporting Files */,
+			);
+			path = Dooble;
+			sourceTree = "<group>";
+		};
+		72CFE38A1B458BA9002AE471 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72E395891B465E3E008062BE /* Sounds */,
+				72CFE38B1B458BA9002AE471 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72E395891B465E3E008062BE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				72CFE3AE1B458D00002AE471 /* junegull.ttf */,
+				72E3958C1B466061008062BE /* gameOver.wav */,
+				72E395901B466248008062BE /* dot.wav */,
+				72E3958A1B465E3E008062BE /* tap.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72CFE3861B458BA9002AE471 /* Dooble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72CFE3A61B458BA9002AE471 /* Build configuration list for PBXNativeTarget "Dooble" */;
+			buildPhases = (
+				72CFE3831B458BA9002AE471 /* Sources */,
+				72CFE3841B458BA9002AE471 /* Frameworks */,
+				72CFE3851B458BA9002AE471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dooble;
+			productName = Double;
+			productReference = 72CFE3871B458BA9002AE471 /* Dooble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72CFE37F1B458BA9002AE471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "FV iMAGINATION";
+				TargetAttributes = {
+					72CFE3861B458BA9002AE471 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Z6D6RAG87Q;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 72CFE3821B458BA9002AE471 /* Build configuration list for PBXProject "Dooble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72CFE37E1B458BA9002AE471;
+			productRefGroup = 72CFE3881B458BA9002AE471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72CFE3861B458BA9002AE471 /* Dooble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72CFE3851B458BA9002AE471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CFE3921B458BA9002AE471 /* Main.storyboard in Resources */,
+				72CFE3AF1B458D00002AE471 /* junegull.ttf in Resources */,
+				72E395911B466248008062BE /* dot.wav in Resources */,
+				72E3958B1B465E3E008062BE /* tap.mp3 in Resources */,
+				72CFE3941B458BA9002AE471 /* Images.xcassets in Resources */,
+				72E3958D1B466061008062BE /* gameOver.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72CFE3831B458BA9002AE471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CFE38F1B458BA9002AE471 /* GameBoard.swift in Sources */,
+				72CFE38D1B458BA9002AE471 /* AppDelegate.swift in Sources */,
+				72CFE3B11B458FBD002AE471 /* Home.swift in Sources */,
+				72E395931B467107008062BE /* GameOver.swift in Sources */,
+				72CFE3AD1B458C03002AE471 /* Configs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72CFE3901B458BA9002AE471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72CFE3911B458BA9002AE471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72CFE3A41B458BA9002AE471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72CFE3A51B458BA9002AE471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72CFE3A71B458BA9002AE471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dooble",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Dooble/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.dooble;
+				PRODUCT_NAME = Dooble;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72CFE3A81B458BA9002AE471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dooble",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Dooble/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.dooble;
+				PRODUCT_NAME = Dooble;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72CFE3821B458BA9002AE471 /* Build configuration list for PBXProject "Dooble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CFE3A41B458BA9002AE471 /* Debug */,
+				72CFE3A51B458BA9002AE471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72CFE3A61B458BA9002AE471 /* Build configuration list for PBXNativeTarget "Dooble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CFE3A71B458BA9002AE471 /* Debug */,
+				72CFE3A81B458BA9002AE471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72CFE37F1B458BA9002AE471 /* Project object */;
+}
